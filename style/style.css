@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'GODOFWAR';
+    src: url('FONT/GODOFWAR.TTF') format('ttf');
+}
+@font-face {
+    font-family: 'Vampire-Wars';
+    src: url('mon-site/FONT/Vampire-Wars.ttf') format('ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: "GODOFWAR";
+}
+
+p {
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #1a2332;
+}
+
+/* ----section 1---- */
+
+.sect1 .container {
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.sect1 .container .left h1 {
+    font-size: 7em;
+    color: #fff;
+    text-shadow: 0 0 10px #888888;
+}
+
+.sect1 .container .left p {
+    color: #E78B0E;
+    max-width: 600px;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.sect1 .container .left button {
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #1a2332;
+    font-size: 1.2em;
+    font-weight: 900;
+    background-color: #FCBC64;
+    box-shadow: 0px 0px 10px #fab24d;
+}
+
+/* ----responsive container---- */
+
+@media (max-width: 1500px) {
+    .sect1 .container .left h1{
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .sect1 .container {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .sect1 .left {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sect1 .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect1 .right img {
+        margin-top: 50px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .sect1 .container .left h1 {
+        font-size: 4em;
+    }
+
+    .sect1 .container .left p {
+        margin: 40px 35px;
+    }
+}
+

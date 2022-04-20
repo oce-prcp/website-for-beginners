@@ -7,6 +7,6 @@ Project for our BDE, activity in which we will teach young people to code a webs
 </p>
 
 Collaborators :
-ssfunerals /
+ssfufu /
 oce-prcp /
 firewax712

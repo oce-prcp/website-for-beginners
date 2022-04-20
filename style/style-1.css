@@ -22,10 +22,6 @@ p, button, a {
     font-family: "Poppins";
 }
 
-body {
-    background-color: #1a2332;
-}
-
 /* ----navbar---- */
 
 .navbar {
@@ -85,6 +81,7 @@ body {
 
 .sect1 {
     margin-top: 100;
+    background-color: #1a2332;
 }
 
 
@@ -182,7 +179,7 @@ body {
     }
 
     .sect1 .right img {
-        margin-top: 50px;
+        margin-top: 75px;
         width: 90%;
     }
 }

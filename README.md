@@ -8,5 +8,4 @@ Project for our BDE, activity in which we will teach young people to code a webs
 
 Collaborators :
 ssfufu /
-oce-prcp /
-firewax712
+oce-prcp

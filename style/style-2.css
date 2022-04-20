@@ -9,7 +9,6 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #1a2332;
-;
 }
 
 .card {
@@ -22,4 +21,23 @@ body {
     background-color: #FCBC64;
     text-align: center;
     text-decoration: underline;
+    margin-bottom: -1px;
+}
+
+#autoWidth {
+    display: flex;
+}
+
+.item-a{
+    width: 50%;
+}
+
+@media (max-width: 1150px) {
+    #autoWidth {
+    display:inline-block;
+    }
+
+    .item-a{
+        width: 100%;
+    }
 }

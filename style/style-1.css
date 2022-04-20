@@ -31,12 +31,6 @@ p, button, a {
     align-items: center;
 }
 
-.navbar.sticky{
-    padding: 15px 0;
-    background-color: #9a8b9b;
-
-}
-
 .navbar .container {
     width: 900px;
     margin: 0 auto;
@@ -44,7 +38,13 @@ p, button, a {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    z-index: 999;
+    background-color: #1a2332;
+    opacity: 0.9;
 }
+
+
 
 .navbar .container img {
     width: 120px;
@@ -61,7 +61,7 @@ p, button, a {
 }
 
 .navbar .container a:hover {
-    color: #fab24d;
+    color: #E78B0E;
     font-size: 1.3em;
     transition: 0.3s;
 }

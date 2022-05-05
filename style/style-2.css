@@ -12,7 +12,7 @@ body {
 }
 
 .card {
-    height: fit-content;
+    height: 50vh;
     color: #1a2332;
     background-color: #1a2332;
 }
@@ -59,7 +59,7 @@ body {
   background: #ffffff;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: #000000;
+  background: #ffffff;
 }
 ::-webkit-scrollbar-track {
   background: #666666;

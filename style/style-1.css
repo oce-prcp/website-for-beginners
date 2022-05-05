@@ -26,9 +26,9 @@ p, button, a {
 /* ----navbar---- */
 
 .navbar {
-    height: 100px;
+    height: 150px;
     width: 100%;
-    margin-left: 1vw; 
+    margin-left: auto; 
     margin-right: auto; 
     padding: 0, 0;
 }
@@ -38,7 +38,6 @@ p, button, a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: fixed;
     z-index: 999;
     background-color: #1a2332;
     opacity: 0.9;
@@ -101,8 +100,8 @@ p, button, a {
 /* ----section 1---- */
 
 .sect1 {
-    margin-top: 100;
     background-color: #1a2332;
+    height: 90vh;
 }
 
 
@@ -130,32 +129,20 @@ p, button, a {
 
 
 .sect1 .container .left .button-27 {
-  appearance: none;
   background-color: #FCBC64;
   border: 2px solid #1a2332;
   width: 300px;
   height: 65px;
   border-radius: 15px;
-  box-sizing: border-box;
   color: #1a2332;
   cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 1.2em;
   font-weight: 900;
-  line-height: normal;
   margin: 0;
   min-height: 60px;
-  min-width: 0;
   outline: none;
   padding: 16px 24px;
-  text-align: center;
-  text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  will-change: transform;
 }
 
 .sect1 .container .left .button-27:disabled {
@@ -170,6 +157,10 @@ p, button, a {
 .button-27:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+.box{
+  border: 10px solid #ff9500;
 }
 
 

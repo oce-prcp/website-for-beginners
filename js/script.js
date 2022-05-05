@@ -1,4 +1,4 @@
-// JavaScript Document
+/* // JavaScript Document
  $(document).ready(function() {
     $('#autoWidth').lightSlider({
         autoWidth:true,
@@ -16,4 +16,4 @@
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
-    });
+    }); */

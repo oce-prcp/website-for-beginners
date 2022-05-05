@@ -159,11 +159,6 @@ p, button, a {
   transform: translateY(0);
 }
 
-.box{
-  border: 10px solid #ff9500;
-}
-
-
 /* ----responsive container---- */
 
 @media (max-width: 1500px) {

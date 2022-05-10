@@ -12,20 +12,24 @@ oce-prcp
 
 --------------------
 <h1>Voici la page d'accueil :</h1>
+
 ![accueil](https://user-images.githubusercontent.com/94532496/167586100-70c02995-469f-4ac3-a03f-41f991033dd6.png)
 
 --------------------
 
 <h1>Lorsque l'on scroll on arrive aux jeux du moments :</h1>
+
 ![best-1](https://user-images.githubusercontent.com/94532496/167586249-1efdcc24-02f4-4ddb-b5ac-bb7dee94a1cd.png)
 
 --------------------
 
 <h1>Celui-ci défile avec un temps d'intervalle régulier :</h1>
+
 ![best-2](https://user-images.githubusercontent.com/94532496/167586278-584b9064-adbe-456e-bfd8-934a04b3bece.png)
 
 --------------------
 
 <h1>Lorsque l'on scroll on arrive à la présentation de ceux ayant contribué à la conception du site :</h1>
+
 ![who](https://user-images.githubusercontent.com/94532496/167587027-977cdc3c-279a-4785-b614-bdd66902df4f.png)
 --------------------

@@ -98,3 +98,28 @@ a {
 	}
 	
 }
+
+#monBouton{
+    background-color: rgb(141, 138, 138);
+    color: #1a2332;
+    font-family: "GODOFWAR";
+    height: 80px;
+    width: 100px;
+    margin-left: 110em;
+}
+
+@media(max-width:1000px){
+    #monBouton{
+        margin-left: 80em;
+        height: 60px;
+        width: 80px;
+    }
+	
+}
+
+@media(max-width:720px){
+    #monBouton{
+        margin-left: 80em;
+    }
+	
+}

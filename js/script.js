@@ -17,3 +17,12 @@
         backSpeed: 60,
         loop: true
     }); */
+
+    /* ------ jQuery Plugin: Scroll to Top ------ */
+
+
+$(function(){
+    $("#monBouton").click(function(){
+        $("html, body").animate({scrollTop: 0},"slow");
+    });
+});
